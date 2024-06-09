@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const flowersContainer = document.getElementById('flowers');
   const messageButton = document.getElementById('message-button');
   const note = document.getElementById('note');
-  const numberOfHearts = 17;
-  const numberOfFlowers = 5;
+  const numberOfHearts = 44;
+  const numberOfFlowers = 10;
   const elementSize = 20; // Size of the heart and flower elements
-  const minDistance = elementSize * 1; // Minimum distance between elements
+  const minDistance = elementSize * 2; // Minimum distance between elements
 
   // Function to generate a random position for hearts and flowers
   function getRandomPosition() {
